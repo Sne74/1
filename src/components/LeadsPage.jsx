@@ -16,7 +16,7 @@ const leadsData = [
 
 const LeadsPage = () => {
   const [activeTab, setActiveTab] = useState('new');
-  const [currentPage, setCurrentPage] = useState(1);
+const [currentPage] = useState(1);
 
   // unused variable setCurrentPage removed
 
